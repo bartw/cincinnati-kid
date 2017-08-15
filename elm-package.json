@@ -1,7 +1,7 @@
 {
     "version": "0.0.1",
     "summary": "Cincinnati kid",
-    "repository": "https://github.com/bartw/cincinnati-kid",
+    "repository": "https://github.com/bartw/cincinnati-kid.git",
     "license": "MIT",
     "source-directories": [
         "."
