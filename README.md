@@ -14,7 +14,9 @@ Whip up a terminal and type the following commands:
 git clone https://github.com/bartw/cincinnati-kid
 cd cincinnati-kid
 sudo docker build -t cincinnati-kid .
-sudo docker run -it --rm -v "$(pwd):/code" -w "/code" -p 8000:8000 cincinnati-kid reactor -a 0.0.0.0
+alias elm='sudo docker run -it --rm -v "$(pwd):/code" -w "/code" -p 8000:8000 cincinnati-kid'
+alias elm-reactor='elm reactor -a 0.0.0.0'
+elm-reactor
 ```
 
 Browse to http://localhost:8000/Hello.elm and be amazed.
